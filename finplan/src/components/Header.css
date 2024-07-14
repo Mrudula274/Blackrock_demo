@@ -1,0 +1,44 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+  }
+  
+  .search-input,
+  .task-input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .task-button,
+  .search-button,
+  .explore-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-button {
+    background-color: #5e3e7b;
+    color: #fff;
+  }
+  
+  .search-button {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .explore-button {
+    background-color: #4b56d2;
+    color: #fff;
+  }
+  

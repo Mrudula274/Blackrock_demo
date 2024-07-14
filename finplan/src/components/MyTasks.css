@@ -1,0 +1,36 @@
+/* src/components/MyTasks.css */
+.my-tasks {
+  background: #1b1b1b;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block; /* Add this line */
+  vertical-align: top; /* Aligns with the top of the sidebar */
+  width: calc(50% - 20px); /* Adjust width as needed */
+}
+
+
+.my-tasks h2 {
+  margin-bottom: 20px;
+}
+
+.my-tasks ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.my-tasks .task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3a3a3a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.my-tasks .task .status {
+  margin-left: auto;
+  color: #bbb;
+}

@@ -1,0 +1,39 @@
+/* src/App.css */
+.app {
+  display: flex;
+  height: 100vh;
+  background: #121212;
+  justify-content: flex-start; /* Adjust alignment as needed */
+    align-items: flex-start; 
+}
+
+.sidebar {
+  width: 200px;
+    background: #7b2d61;
+    color: #fff;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.main {
+  display: flex;
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+  
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+  padding: 20px;
+}
+
+.financial-overview,
+.my-tasks {
+  background: #1b1b1b;
+  
+  border-radius: 10px;
+}
+
+
