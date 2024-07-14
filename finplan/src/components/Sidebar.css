@@ -1,0 +1,24 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    width: 200px;
+    height: 600px;
+    background: #7b2d61;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+  }
+  
+  .add-item-button, .logout-button {
+    display: block;
+    margin: 20px 0;
+    width: 100%;
+  }
+  
